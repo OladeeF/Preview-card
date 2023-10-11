@@ -1,0 +1,83 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    }
+    .container {
+        padding: 20px;
+        border: 2px solid hsl(216, 50%, 16%);
+        margin: 100px auto;
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 15px;
+       max-width: 20%;
+        box-sizing: border-box;
+    }
+    
+    .image img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    
+    .figure {
+        display: flex;
+        justify-content: space-between;
+        justify-content: flex-start;
+    }
+    
+    .figure h4 {
+        margin-left: 30px;
+        color: hsl(215, 51%, 70%);
+        font-weight: 300;
+    }
+    
+    .figure h3 {
+        color: hsl(178, 100%, 50%);
+    }
+    
+    .wordings h2 {
+        font-weight: 600;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .wordings p {
+        color: hsl(215, 51%, 70%);
+        font-weight: 400;
+    }
+    
+    .footer img {
+        width: 35px;
+        height: 35px;
+        border: 2px solid white;
+        border-radius: 50%;
+        margin-top: 12px;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        justify-content: flex-start;
+    }
+    
+    .footer h5 {
+        margin-left: 15px;
+        font-weight: 300;
+        font-size: 14px;
+        color: hsl(215, 51%, 70%);
+    }
+    
+    .footer h6 {
+        margin-top: 25px;
+        margin-left: 5px;
+        font-weight: 300;
+        font-size: 14px;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    @media screen and (max-width: 375px){
+        .container {
+            width: 100%;
+        
+        }
+       
+    }
+    
